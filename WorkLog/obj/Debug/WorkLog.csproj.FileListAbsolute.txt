@@ -20,3 +20,7 @@ C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog
 C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog.WorkLog.resources
 C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog.Properties.Resources.resources
 C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog.csproj.GenerateResource.Cache
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Debug\WorkLog.exe.manifest
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Debug\WorkLog.application
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog.exe.manifest
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Debug\WorkLog.application
