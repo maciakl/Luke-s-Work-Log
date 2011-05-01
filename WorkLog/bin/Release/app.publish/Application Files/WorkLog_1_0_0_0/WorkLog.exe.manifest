@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="WorkLog.exe" version="1.0.0.0" publicKeyToken="989b8d7ea50020ed" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="shell32_16763.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WorkLog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WorkLog.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkLog.exe" size="66560">
+      <assemblyIdentity name="WorkLog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ucsf5CBpa41pvzz6AY5OU8++iN8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="shell32_16763.ico" size="14846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BP7cCpG6iVu2epg7WSoC9S05nFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkLog.exe.config" size="803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>feDw7Y945WOP7nnIKeB/ssV22NU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=gandalf\luke" issuerKeyHash="608d579c4db8d5c471f33fb87874ef91427d3051" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zXpp7zn++ftmibN8bq0XrKCIp2g=</DigestValue></Reference></SignedInfo><SignatureValue>Y4lMJL18HK2wDpIQqYoXmnBAUGR4Y0OLPQv3zJE4lpZu5CfJDP8X2WBIjC/TLUo0H+Bd2R4qzP7QsPwTpoLU4eohqo6LhdDSSF/LXmE2a9YtQK3IeZKAy/ZXOjLSL1PDN+IaqvN4d2wgMPeveBdqeaK7RzYNccxeoqnce+THZSU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uCNH2lKjySohWHlIqb4vZRZwW4aeNfT9a499YshNaC9X/TVCdj8asNPiENtbiDlmLptCgv0Lopc5EIma5biRCHVhOJLV0T5oXYok+5GFXG9fwLYw2GH97x9ItNjzjhrWbVZElhxGGfGq17GPinaxz181lry2x5y2EABAxeC1i0M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68a788a0ac17ad6e7cb38966fbf9fe39ef697acd" Description="" Url=""><as:assemblyIdentity name="WorkLog.exe" version="1.0.0.0" publicKeyToken="989b8d7ea50020ed" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=gandalf\luke</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bVr4AX1f3gexX/qZaG9TFG3zN+k=</DigestValue></Reference></SignedInfo><SignatureValue>aHtCx42uUEmy67oYUToSdO8mQDdKvdP8dw6eMNyoSCIxkyEAvC32Wwwn5AVyoJSNMo9QzoxNHzJ+S5gsEB9qgMlKcKFwYSp4c1fDfd6o/uDss+AiuUNXK+grizubm+PA6PKJCOCg6hTQEGm6L3gyLl/CSLxXKZdHkdvoi5Mp9/M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uCNH2lKjySohWHlIqb4vZRZwW4aeNfT9a499YshNaC9X/TVCdj8asNPiENtbiDlmLptCgv0Lopc5EIma5biRCHVhOJLV0T5oXYok+5GFXG9fwLYw2GH97x9ItNjzjhrWbVZElhxGGfGq17GPinaxz181lry2x5y2EABAxeC1i0M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQDafKbDZttIJPOoxX2Dla1jANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAZwBhAG4AZABhAGwAZgBcAGwAdQBrAGUwHhcNMTEwNTAxMjExMzQ4WhcNMTIwNTAxMDMxMzQ4WjAjMSEwHwYDVQQDHhgAZwBhAG4AZABhAGwAZgBcAGwAdQBrAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALgjR9pSo8kqIVh5SKm+L2UWcFuGnjX0/WuPfWLITWgvV/01QnY/GrDT4hDbW4g5Zi6bQoL9C6KXORCJmuW4kQh1YTiS1dE+aF2KJPuRhVxvX8C2MNhh/e8fSLTY844a1m1WRJYcRhnxqtexj4p2sc9fNZa8tsecthAAQMXgtYtDAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEANzXLfIscYGu5rRnvDJzHp3eG8nUUAi6aIJ/sj1XvAXmjl6EE60ANBl31IMLIHnHN8i2Oggv7sfMfBpN2uX0Quz7fHI2QQL6AWqP+MgddcYXKzBo7qB1LzuF31r5msefLPipnJg5YRlcZzBGEzEnJyFaBdQZy3Xs+XXeoYQm6XzI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

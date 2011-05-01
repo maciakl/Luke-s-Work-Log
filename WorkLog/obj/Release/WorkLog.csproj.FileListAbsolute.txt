@@ -1,0 +1,15 @@
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Release\WorkLog.exe.config
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Release\WorkLog.exe.manifest
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Release\WorkLog.application
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Release\WorkLog.exe
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\bin\Release\WorkLog.pdb
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\ResolveAssemblyReference.cache
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.AboutBox1.resources
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.ChangeFolder.resources
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.WorkLog.resources
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.Properties.Resources.resources
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.csproj.GenerateResource.Cache
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.exe.manifest
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.application
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.exe
+C:\Users\luke\Documents\My Dropbox\Programming\WorkLog\WorkLog\obj\Release\WorkLog.pdb
