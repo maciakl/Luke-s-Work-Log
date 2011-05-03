@@ -4,14 +4,14 @@
   <description asmv2:publisher="Lukasz Grzegorz Maciak (maciak.org)" asmv2:product="Luke's Work Log" asmv2:supportUrl="http://maciak.org/worklog" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="WorkLog.exe.manifest" size="4718">
+    <dependentAssembly dependencyType="install" codebase="WorkLog.exe.manifest" size="4732">
       <assemblyIdentity name="WorkLog.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>m7XjAaqWbJAHt3M3b2Rh5E1mVMY=</dsig:DigestValue>
+        <dsig:DigestValue>d8JLoJ+6Jf51od3acmIht0uzYN0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

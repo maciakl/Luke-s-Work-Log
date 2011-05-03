@@ -9,7 +9,7 @@
  * 
  * Copyright © 2011 Lukasz Grzegorz Maciak (maciak.org)
  * 
-*/
+ */
 
 using System;
 using System.Collections.Generic;

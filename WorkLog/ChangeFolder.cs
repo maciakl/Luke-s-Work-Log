@@ -55,6 +55,7 @@ namespace WorkLog
         private void sv_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.folder = this.folder.Text;
+            Properties.Settings.Default.Save();
             this.Hide();
             this.Owner.Focus();
             this.Dispose();
