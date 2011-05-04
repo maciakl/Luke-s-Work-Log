@@ -4,7 +4,7 @@
   <description asmv2:iconFile="shell32_16763.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="WorkLog" version="1.1.4139.42276" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="WorkLog" version="1.2.4140.35819" language="neutral" processorArchitecture="msil" />
     <commandLine file="WorkLog.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -58,14 +58,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkLog.exe" size="66560">
-      <assemblyIdentity name="WorkLog" version="1.1.4139.42276" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkLog.exe" size="67072">
+      <assemblyIdentity name="WorkLog" version="1.2.4140.35819" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>dm55Gb+dOPjbZZdtTSH59a204N4=</dsig:DigestValue>
+        <dsig:DigestValue>qQlIkiDscKxnVKSqGfCN+vtiYgk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
